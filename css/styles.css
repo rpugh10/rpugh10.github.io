@@ -1,0 +1,47 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3333;
+    display: flex;
+}
+
+ul li{
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li:hover{
+    background-color: #1111;
+    cursor: pointer;
+}
+
+.gitHub_icon{
+    width: 90px;
+    height: auto;
+    float: right;
+}
+
+.gitHub_icon:hover{
+    background-color: #1111;
+    cursor: pointer;
+}
+
+.gitHub_icon:active{
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.page {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    min-height: 100vh;
+}
