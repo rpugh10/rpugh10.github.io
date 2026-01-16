@@ -18,7 +18,7 @@ ul li:hover{
     cursor: pointer;
 }
 
-.gitHub_icon{
+.navbar ul .gitHub_icon{
     width: 90px;
     height: auto;
     float: right;
@@ -29,10 +29,6 @@ ul li:hover{
     cursor: pointer;
 }
 
-.gitHub_icon:active{
-
-
-}
 
 a{
     text-decoration: none;
