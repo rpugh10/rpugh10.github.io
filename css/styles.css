@@ -1,8 +1,28 @@
+body{
+    background-color: black;
+}
+
+
+.page {
+    max-width: 1100px;
+    margin: auto;
+    min-height: 100vh;
+    background-color: #3b0468;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a{
+    color:white;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #3333;
     display: flex;
 }
 
@@ -14,11 +34,15 @@ ul li{
 }
 
 ul li:hover{
-    background-color: #1111;
+    background-color: #c7c3c311;
     cursor: pointer;
 }
 
-.navbar ul .gitHub_icon{
+ul li:active{
+    background-color: #df129a11;
+}
+
+.github_icon{
     width: 90px;
     height: auto;
     float: right;
@@ -35,9 +59,8 @@ a{
     color: black;
 }
 
-.page {
-    max-width: 1100px;
-    margin: auto;
-    background: white;
-    min-height: 100vh;
+.home_container{
+    text-align: center;
+    padding: 50px;
 }
+
