@@ -100,5 +100,6 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/', title: Home, text: 'Home' }
+  - { url: '/', title: Projects, text: 'Projects' }
+  - { url: '/about', title: About, text: 'About' }
