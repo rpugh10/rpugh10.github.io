@@ -4,10 +4,21 @@ title: Projects
 permalink: /projects/
 ---
 
-# My Projects
+<h1>Projects</h1>
 
-## Inventory Tracker
+<div class="project">
+    <h2>Inventory Tracker</h2>
 
-A full-stack inventory management application built with Java and Spring Boot.
+    <p>
+        A full-stack inventory management application built with Spring Boot.
+    </p>
 
-**Technologies:** Java, Spring Boot, PostgreSQL, Docker, JWT
+    <p>
+        <strong>Technologies:</strong>
+        Java, Spring Boot, PostgreSQL, Docker
+    </p>
+
+    <a href="https://github.com/rpugh10/inventoryTracker">
+        View on GitHub
+    </a>
+</div>
