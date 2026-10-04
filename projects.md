@@ -1,15 +1,13 @@
-
 ---
-layout: page
+layout: inner
 title: Projects
+permalink: /projects/
 ---
 
 # My Projects
 
 ## Inventory Tracker
 
-A full-stack inventory management application for managing products, suppliers, locations, and inventory transactions.
+A full-stack inventory management application built with Java and Spring Boot.
 
-**Technologies:** Java, Spring Boot, PostgreSQL, Docker, JWT, Maven
-
-[View on GitHub](https://github.com/rpugh10/inventoryTracker)
+**Technologies:** Java, Spring Boot, PostgreSQL, Docker, JWT
