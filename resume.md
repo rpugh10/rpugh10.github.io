@@ -1,4 +1,3 @@
-
 ---
 layout: inner
 title: Resume
