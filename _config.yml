@@ -18,9 +18,9 @@ email: 'rpugh55@yahoo.com'
 description: "I'm an aspiring software engineer currently studying at Thompson Rivers University."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rpugh10.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'jamigibbs'
+linkedin_username: 'rpugh10'
 github_username: 'rpugh10'
-medium_username: 'blog.jamigibbs.com'
+phone_number: '250-255-7376'
 
 # Build settings
 markdown: kramdown
@@ -92,8 +92,8 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
+footer_text: '© 2026 Ryan Pugh'
+admin_name: 'Ryan Pugh'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
