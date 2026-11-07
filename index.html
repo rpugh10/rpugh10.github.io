@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0c0b10">
+    <meta name="description" content="Ryan Pugh — computer science student exploring backend development and quality assurance.">
+    <title>Ryan Pugh | Developer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="JavaScript/index.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#home" aria-label="Ryan Pugh home">rp<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> COMPUTER SCIENCE STUDENT</p>
+          <h1 id="hero-title">Hello, I’m Ryan Pugh.<br>Let’s build<br><span>something meaningful</span></h1>
+          <p class="intro">Backend Engineer with experience in Java, Spring Boot, Python, and PostgreSQL. I love learning new technologies and applying them to solve real-world problems.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="./assets/Ryan Resume (10).pdf" target="_blank">Resume <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/developer-orbit.svg" alt="" width="560" height="560">
+          <span class="art-caption">CURIOSITY → CODE → CONFIDENCE</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> A little more about me</a>
+      </section>
+      <section class="section wrap about" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2 id="about-title">Beyond the<br><span>first line of code.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>I have professional Quality Assurance experience from my internship at Great West Radon. I learned the importance of testing, communication between team members, and the value of a well-structured development process.</p>
+          <p>Outside of tech, I enjoy outdoor activities such as skiing, surfing, and golfing. I also enjoy traveling to new countries and exploring places I've never been before.</p>
+          <div class="interests">
+            <span>Backend development</span>
+            <span>Quality assurance</span>
+            <span>Software Engineering</span>
+          </div>
+        </div>
+      </section>
+      <section class="section wrap" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / PROJECTS</p>
+            <h2 id="projects-title">A closer look at <span>my work.</span></h2>
+          </div>
+          <a class="text-link" href="https://github.com/rpugh10" target="_blank">Visit GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="section-intro">These are my finished and ongoing projects.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual qa" aria-hidden="true">
+              <div class="qa-mark">
+                ✓
+                <div class="qa-line">
+                </div>
+                <div class="qa-line short">
+                </div>
+              </div>
+              <span class="visual-index">01</span>
+            </div>
+            <div class="project-body">
+              <p class="project-state">Tech Stack: Python, FastAPI, pytest, GitHub Actions</p>
+              <h3>QA Agent</h3>
+              <p>
+                ● Developing an AI-assisted API testing tool in Python and FastAPI that generates and executes test cases from business rules and API specifications. <br><br>
+                ● Integrated NVIDIA Nemotron through Nebius Token Factory to analyze business rules and support test planning.<br><br>
+                ● Automated pytest testing with GitHub Actions across four Python and OS configurations on
+               </p>
+              <a class ="text-link" href="https://github.com/rpugh10/QA_Agent" target="_blank">View repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual inventory" aria-hidden="true">
+              <div class="mini-window">
+                <div class="window-bar">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+                <div class="mock-row">
+                  <b></b>
+                  <span></span>
+                </div>
+                <div class="mock-row">
+                  <b></b>
+                  <span></span>
+                </div>
+                <div class="mock-row">
+                  <b></b>
+                  <span></span>
+                </div>
+              </div>
+              <span class="visual-index">02</span>
+            </div>
+            <div class="project-body">
+              <p class="project-state">Tech Stack: Java, Spring Boot, Docker, PostgreSQL</p>
+              <h3>Inventory Tracker</h3>
+              <p>● Built REST APIs with Spring Boot for inventory management, integrating a PostgreSQL database and authentication plus admin/staff authorization. <br><br>
+                 ● Debugged application and database issues, implementing validation logic and business rules to enforce inventory transaction integrity. <br><br>
+                 ● Created JUnit and Mockito unit tests to verify stock updates, reject insufficient-stock withdrawals, and prevent invalid transaction records when stock movements fail. <br><br>
+                 ● Containerized the Spring Boot application and PostgreSQL database using Docker Compose for consistent setup across environments.
+                </p>
+              <a class ="text-link" href="https://github.com/rpugh10/Inventory_Tracker" target="_blank">View repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual android" aria-hidden="true">
+              <div class="phone">
+                <div class="phone-speaker">
+                </div>
+                <div class="phone-block">
+                </div>
+                <div class="phone-line">
+                </div>
+                <div class="phone-line">
+                </div>
+                <div class="phone-button">
+                </div>
+              </div>
+              <span class="visual-index">03</span>
+            </div>
+            <div class="project-body">
+              <p class="project-state">Tech Stack: HTML, CSS, JavaScript, Python, Spring Boot, MySQL</p>
+              <h3>UFC Predictor</h3>
+              <p>● Developed a full-stack web application that predicts which fighter will win and the confidence in that prediction. <br><br>
+                 ● Utilized MySQL for data storage, SpringBoot for a RESTful API backend, and HTML, CSS, and JS for the frontend. <br><br>
+                 ● Used Python to read fighter data from Kaggle and make predictions
+                </p>
+               <a class ="text-link" href="https://github.com/rpugh10/ufc_predictor" target="_blank">View repository <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section wrap contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">03 / CONTACT</p>
+        <h2 id="contact-title">Good software starts<br>with <span>a conversation.</span></h2>
+        <p>Find me online to connect or take a look at my code.</p>
+        <div class="contact-links">
+          <a href="https://github.com/rpugh10" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/ryan-pugh-7a5a4435b/" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <a class="wordmark" href="#home" aria-label="Back to top">rp<span>.</span></a>
+      <p>© <span id="year">2026</span> Ryan Pugh</p>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
